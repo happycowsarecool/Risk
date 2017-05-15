@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sheda.risk.CardActivity"
+    tools:showIn="@layout/activity_card">
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/Cards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cards"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="6dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='There are 56 Risk cards. 42 cards are marked with countries as well as an infantry, cavalry, or artillery symbol.There are two "Wild" cards, and 12 "Mission" cards that come with the Secret Mission Risk variant.'
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If at the end of your attacking turn you've conquered at least one territory, then you have earned a Risk card. You cannot earn more than one Risk card for this. The goal is to collect sets of three “Risk” cards to exchange them for new armies."
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you manage to wipe out an opponent by destroying his or her last army, you gain possession of all the Risk cards he or she may have had in their hands."
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/preparation"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg_transparent_other"
+                android:text="preparation"
+                android:textColor="#cfd8dc" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg_transparent_other"
+                android:text="back"
+                android:textColor="#cfd8dc" />
+
+            <Button
+                android:id="@+id/armies"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg_transparent_other"
+                android:text="armies and units"
+                android:textColor="#cfd8dc" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

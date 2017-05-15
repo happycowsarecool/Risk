@@ -6,18 +6,15 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.Button;
 
-public class RiskActivity extends AppCompatActivity implements View.OnClickListener{
+public class FortifyingActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_risk);
+        setContentView(R.layout.activity_fortifying);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -29,22 +26,23 @@ public class RiskActivity extends AppCompatActivity implements View.OnClickListe
                         .setAction("Action", null).show();
             }
         });
-        Button mBtn1 = (Button) findViewById(R.id.Play);
+        Button mBtn1 = (Button) findViewById(R.id.attacking);
         mBtn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(RiskActivity.this, RiskBoardActivity.class);
+                Intent i = new Intent(FortifyingActivity.this, AttackingDefendingActivity.class);
                 startActivity(i);
 
 
             }
 
         });
-        Button mBtn2 = (Button) findViewById(R.id.How_to_Play);
+
+        Button mBtn2 = (Button) findViewById(R.id.back);
         mBtn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(RiskActivity.this, HowToActivity.class);
+                Intent i = new Intent(FortifyingActivity.this, HowToActivity.class);
                 startActivity(i);
 
 
@@ -53,31 +51,4 @@ public class RiskActivity extends AppCompatActivity implements View.OnClickListe
         });
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_risk, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    public void onClick(View v) {
-        Log.i("clicks","You Clicked B1");
-
-    }
 }

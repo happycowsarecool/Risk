@@ -21,6 +21,30 @@
         <activity
             android:name=".RiskBoardActivity"
             android:label="@string/title_activity_risk_board"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HowToActivity"
+            android:label="@string/title_activity_how_to"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PreparationActivity"
+            android:label="@string/title_activity_preparation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ArmiesUnitsActivity"
+            android:label="@string/title_activity_armies_units"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AttackingDefendingActivity"
+            android:label="@string/title_activity_attacking_defending"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FortifyingActivity"
+            android:label="@string/title_activity_fortifying"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CardActivity"
+            android:label="@string/title_activity_card"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

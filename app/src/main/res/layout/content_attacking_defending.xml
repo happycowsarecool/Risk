@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sheda.risk.AttackingDefendingActivity"
+    tools:showIn="@layout/activity_attacking_defending">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/attacking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Attacking and Defending"
+                android:textColor="#FFFFFF"
+                android:textSize="23sp"
+                android:textStyle="bold|italic"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="6dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You may only attack other territories that are adjacent to a territory you own or that are connected to a territory you own by a sea-lane. You may attack the same territory more than once, or you may attack different territories. You can attack the same territory from the same adjacent position, or you can attack it from different adjacent positions."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Because your territory must be occupied at all times, you must leave at least one army behind. The number of armies you attack with will determine how many dice you get to roll when you square off the opponent whose territory you are defending."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 army = 1 die"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2 armies = 2 dice"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 armies = 3 dice"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You roll up to three red dice, depending on your troop size. The defending player rolls the same number of white dice as the number of troops in their defending territory, with a maximum of two.  Match up the highest red die with the highest white die, and match the second highest red die with the second highest white die. If there is only one white die, only match up the highest red die with the white die.   Remove one of your pieces from the attacking territory if the white die is higher or equal to its corresponding red die.     Remove one of your opponent’s pieces from the defending territory if the red die is higher to its corresponding white die. "
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Occupy the territory if you win it. If you successfully wipe out all of the defending armies in the area you are attacking, then will need to occupy the territory with at least as many attacking armies as used in the attack. If you attack with three dice (or three armies), you must colonize the newly-acquired territory with at least three armies, although you can choose to colonize it with more if you wish."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Set up your initial territories. This will determine the starting points for all players. Each territory must have one “army” in it at all times."
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Roll the dice to determine who goes first. The player who rolls the highest number starts the game. Then the play order goes clockwise from the starting player. The game starts after the order of play has been determined."
+                android:textColor="#FFFFFF" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/armies"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_transparent_other"
+                    android:text="Armies"
+                    android:textColor="#cfd8dc" />
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_transparent_other"
+                    android:text="back"
+                    android:textColor="#cfd8dc" />
+
+                <Button
+                    android:id="@+id/fortifying"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_transparent_other"
+                    android:text="fortifying territories"
+                    android:textColor="#cfd8dc" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

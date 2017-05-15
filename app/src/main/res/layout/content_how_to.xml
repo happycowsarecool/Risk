@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/earth"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sheda.risk.HowToActivity"
+    tools:showIn="@layout/activity_how_to">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <Button
+            android:id="@+id/preparation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preparing the game"
+            android:background="@drawable/button_bg_transparent"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/cards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_transparent"
+            android:text="Cards"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/armies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Armies/Units"
+            android:background="@drawable/button_bg_transparent"
+            android:textColor="#FFFFFF"/>
+
+
+        <Button
+            android:id="@+id/attacking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attacking/Defending"
+            android:background="@drawable/button_bg_transparent"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/fortifying"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_transparent"
+            android:text="Fortifying territories"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="return"
+            android:background="@drawable/button_bg_transparent"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

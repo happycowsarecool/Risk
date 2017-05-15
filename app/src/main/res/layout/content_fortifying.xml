@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sheda.risk.FortifyingActivity"
+    tools:showIn="@layout/activity_fortifying">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/Fortifying_Territories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fortifying Territories"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="6dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you territories are not well fortified, then they will be vulnerable to attack from your opponents. To keep your territories safe from attack during your opponents' attack phases, move your pieces where you want them before ending your turn."
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Move your pieces to different territories at the end of your turn. It is in your best interest to move pieces to your border territories that are more vulnerable to attacks by your opponents."
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In order to retain control of the territories that you are moving army pieces from, make sure that you leave at least one of your army pieces on each territory that you own. Otherwise, you will no longer have control of the territory."
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/attacking"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg_transparent_other"
+                android:text="attacking and defending"
+                android:textColor="#cfd8dc" />
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_bg_transparent_other"
+                android:text="return"
+                android:textColor="#cfd8dc" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

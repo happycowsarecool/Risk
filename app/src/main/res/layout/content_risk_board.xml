@@ -6,9 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#000000"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.sheda.risk.RiskBoardActivity"
     tools:showIn="@layout/activity_risk_board">
@@ -27,6 +29,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
+
                 android:orientation="vertical">
 
                 <com.example.sheda.risk.TouchImageView
@@ -114,40 +117,53 @@
                         android:layout_height="match_parent" >
 
                         <Button
-                            android:id="@+id/Australia_1"
+                            android:id="@+id/Asia_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Indonesia" />
+                            android:text="Middle East"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_asia"/>
 
                         <Button
                             android:id="@+id/North_America_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Alaska" />
+                            android:text="Alaska"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_na"/>
 
                         <Button
                             android:id="@+id/Europe_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Iceland" />
+                            android:text="Iceland"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_europe"/>
 
                         <Button
                             android:id="@+id/Africa_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="North Africa" />
+                            android:text="North Africa"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_africa"/>
 
                         <Button
                             android:id="@+id/South_America_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Venezuela" />
+                            android:text="Venezuela"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_sa"/>
 
                         <Button
-                            android:id="@+id/Asia_1"
+                            android:id="@+id/Australia_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Middle East" />
+                            android:background="@drawable/button_bg_transparent_australia"
+                            android:text="Indonesia"
+                            android:textColor="#FFFFFF" />
+
                     </TableRow>
 
                     <TableRow
@@ -156,40 +172,52 @@
                         android:layout_height="match_parent" >
 
                         <Button
-                            android:id="@+id/Australia_2"
+                            android:id="@+id/Asia_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="New Guinea" />
+                            android:text="India"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_asia"/>
 
                         <Button
                             android:id="@+id/North_America_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="NorthWest Territories" />
+                            android:text="NorthWest Territories"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_na"/>
 
                         <Button
                             android:id="@+id/Europe_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Scandinavia" />
+                            android:text="Scandinavia"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_europe"/>
 
                         <Button
                             android:id="@+id/Africa_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Egypt " />
+                            android:text="Egypt "
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_africa"/>
 
                         <Button
                             android:id="@+id/South_America_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Brazil" />
+                            android:text="Brazil"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_sa"/>
 
                         <Button
-                            android:id="@+id/Asia_2"
+                            android:id="@+id/Australia_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="India" />
+                            android:background="@drawable/button_bg_transparent_australia"
+                            android:text="New Guinea"
+                            android:textColor="#FFFFFF" />
 
                     </TableRow>
 
@@ -199,40 +227,53 @@
                         android:layout_height="match_parent" >
 
                         <Button
-                            android:id="@+id/Australia_3"
+                            android:id="@+id/Asia_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Western Australia" />
+                            android:text="Siam"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_asia"/>
 
                         <Button
                             android:id="@+id/North_America_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Greenland" />
+                            android:text="Greenland"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_na"/>
 
                         <Button
                             android:id="@+id/Europe_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Great Britain" />
+                            android:text="Great Britain"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_europe"/>
 
                         <Button
                             android:id="@+id/Africa_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Congo" />
+                            android:text="Congo"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_africa"/>
 
                         <Button
                             android:id="@+id/South_America_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Peru" />
+                            android:text="Peru"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_sa"/>
 
                         <Button
-                            android:id="@+id/Asia_3"
+                            android:id="@+id/Australia_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Siam" />
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_australia"
+                            android:text="Western Australia" />
+
                     </TableRow>
 
                     <TableRow
@@ -241,40 +282,52 @@
                         android:layout_height="match_parent" >
 
                         <Button
-                            android:id="@+id/Australia_4"
+                            android:id="@+id/Asia_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Eastern Australia" />
+                            android:text="Afghanistan"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_asia"/>
 
                         <Button
                             android:id="@+id/North_America_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Alberta" />
+                            android:text="Alberta"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_na"/>
 
                         <Button
                             android:id="@+id/Europe_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Northern Europe " />
+                            android:text="Northern Europe "
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_europe"/>
 
                         <Button
                             android:id="@+id/Africa_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="East Africa " />
+                            android:text="East Africa "
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_africa"/>
 
                         <Button
                             android:id="@+id/South_America_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Argentina" />
+                            android:text="Argentina"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_sa"/>
 
                         <Button
-                            android:id="@+id/Asia_4"
+                            android:id="@+id/Australia_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Afghanistan" />
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_australia"
+                            android:text="Eastern Australia" />
 
                     </TableRow>
 
@@ -287,25 +340,33 @@
                             android:id="@+id/Asia_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="China" />
+                            android:text="China"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_asia"/>
 
                         <Button
                             android:id="@+id/North_America_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Ontario" />
+                            android:text="Ontario"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_na"/>
 
                         <Button
                             android:id="@+id/Europe_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Ukraine" />
+                            android:text="Ukraine"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_europe"/>
 
                         <Button
                             android:id="@+id/Africa_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="South Africa " />
+                            android:text="South Africa "
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_africa"/>
 
                     </TableRow>
 
@@ -318,25 +379,33 @@
                             android:id="@+id/Asia_6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Ural" />
+                            android:text="Ural"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_asia"/>
 
                         <Button
                             android:id="@+id/North_America_6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Quebec" />
+                            android:text="Quebec"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_na"/>
 
                         <Button
                             android:id="@+id/Europe_6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Western Europe " />
+                            android:text="Western Europe "
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_europe"/>
 
                         <Button
                             android:id="@+id/Africa_6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Madagascar " />
+                            android:text="Madagascar "
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_africa"/>
                     </TableRow>
 
                     <TableRow
@@ -348,19 +417,25 @@
                             android:id="@+id/Asia_7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Siberia" />
+                            android:text="Siberia"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_asia"/>
 
                         <Button
                             android:id="@+id/North_America_7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Western United States" />
+                            android:text="Western United States"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_na"/>
 
                         <Button
                             android:id="@+id/Europe_7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Southern Europe " />
+                            android:text="Southern Europe "
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_europe"/>
                     </TableRow>
 
                     <TableRow
@@ -372,13 +447,17 @@
                             android:id="@+id/Asia_8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Yakutsk " />
+                            android:text="Yakutsk "
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_asia"/>
 
                         <Button
                             android:id="@+id/North_America_8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Eastern United States" />
+                            android:text="Eastern United States"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_na"/>
                     </TableRow>
 
                     <TableRow
@@ -390,13 +469,18 @@
                             android:id="@+id/Asia_9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Kamchatka " />
+                            android:text="Kamchatka "
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_asia"
+                            />
 
                         <Button
                             android:id="@+id/North_America_9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Central America" />
+                            android:text="Central America"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_na"/>
                     </TableRow>
 
                     <TableRow
@@ -408,7 +492,9 @@
                             android:id="@+id/Asia_10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Mongolia " />
+                            android:text="Mongolia "
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_asia"/>
                     </TableRow>
 
                     <TableRow
@@ -420,7 +506,9 @@
                             android:id="@+id/Asia_11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Irkutsk " />
+                            android:text="Irkutsk "
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/button_bg_transparent_asia"/>
                     </TableRow>
                 </TableLayout>
 
