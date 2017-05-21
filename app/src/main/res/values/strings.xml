@@ -8,4 +8,5 @@
     <string name="title_activity_attacking_defending">AttackingDefendingActivity</string>
     <string name="title_activity_fortifying">FortifyingActivity</string>
     <string name="title_activity_card">CardActivity</string>
+    <string name="title_activity_end_screen">EndScreenActivity</string>
 </resources>

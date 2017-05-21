@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sheda.risk.EndScreenActivity"
+    tools:showIn="@layout/activity_end_screen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Results of Match"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="menu"
+        android:gravity="center"
+        android:background="@drawable/button_bg_transparent_other"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="503dp" />
+</android.support.constraint.ConstraintLayout>
