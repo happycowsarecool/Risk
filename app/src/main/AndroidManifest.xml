@@ -18,6 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PopUpWindow"></activity>
         <activity
             android:name=".RiskBoardActivity"
             android:label="@string/title_activity_risk_board"
